@@ -5,20 +5,20 @@
 </template>
 
 <script>
-import InputField from '@/components/Fields/InputField.vue'
-import FormElementGroup from '@/components/FormElementGroup.vue'
+/* import InputField from '@/components/Fields/InputField.vue'
+import FormElementGroup from '@/components/FormElementGroup.vue' */
 
 export default {
   name: 'App',
   components: {
-    InputField,
-    FormElementGroup
+    /* InputField,
+    FormElementGroup */
   }
 }
 </script>
 
 <style>
 #app {
- 
+  
 }
 </style>
