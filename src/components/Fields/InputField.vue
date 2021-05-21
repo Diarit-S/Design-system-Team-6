@@ -1,5 +1,5 @@
 <template>
-  <input :type="type" :name="name" class="common-input-field">
+  <input :type="type" :name="name" class="common-input-field" :placeholder="placeholder">
 </template>
 
 <script lang="js">
@@ -14,6 +14,10 @@ export default defineComponent({
     name: {
       type: String,
       default: "Field"
+    },
+    placeholder: {
+      type: String,
+      default: "Placeholder"
     }
   }
 })
@@ -22,6 +26,7 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import '@/styles/vars';
 @import '@/styles/colors';
+@import '@/styles/fonts';
 
 .common-input-field {
   padding: 20px 16px;
@@ -30,9 +35,18 @@ export default defineComponent({
   border-color: $brand-primary-lighter;
   border-style: solid;
 
+  font-size: $base-font-size;
+  font-weight: $regular-font-weight;
+  line-height: $base-line-height;
+  color: $brand-primary-initial;
+
   &:focus {
     outline: none;
     border-color: $brand-primary-initial;
+  }
+
+  &::placeholder {
+    color: $brand-primary-lighter;
   }
 }
 </style>

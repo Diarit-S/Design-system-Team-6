@@ -20,7 +20,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/styles/vars';
+
 .form-element-group {
+  margin-bottom: $form-element-margin-bottom;
   label {
     display: block;
   }
