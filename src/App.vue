@@ -11,10 +11,10 @@ import FormElementGroup from '@/components/FormElementGroup.vue' */
 
 export default {
   name: 'App',
-  /* components: {
-    InputField,
-    FormElementGroup
-  } */
+  components: {
+    /* InputField,
+    FormElementGroup */
+  }
 }
 </script>
 
