@@ -1,13 +1,32 @@
 <template>
-    <h1>PasswordRetrieve</h1>
+  <FormLayout>
+    <Form formTitle="Sign In">
+      <FormElementGroup label="Pseudo">
+        <InputField type="text" name="name" placeholder="Placeholder"/>
+      </FormElementGroup>
+      <FormElementGroup label="Pseudo">
+        <InputField type="text" name="name" placeholder="Placeholder"/>
+      </FormElementGroup>
+      <FormElementGroup label="Pseudo">
+        <InputField type="text" name="name" placeholder="Placeholder"/>
+      </FormElementGroup>
+    </Form>
+  </FormLayout>
 </template>
 
 <script>
-export default {
+import FormLayout from "@/layout/FormLayout.vue";
+import InputField from '@/components/Fields/InputField.vue'
+import FormElementGroup from '@/components/FormElementGroup.vue'
+import Form from '@/components/Form.vue'
 
+export default {
+  name: 'passwordRetrieve',
+  components: {
+    FormLayout,
+    InputField,
+    FormElementGroup,
+    Form
+  }
 }
 </script>
-
-<style>
-
-</style>

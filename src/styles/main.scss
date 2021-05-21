@@ -1,9 +1,11 @@
 @import 'fonts.scss';
+@import 'vars.scss';
 
 body {
   font-family: 'Poppins', sans-serif;
 
   h1 {
     font-size: $heading-one-font-size;
+    margin-bottom: $heading-one-margin-bottom;
   }
 }
