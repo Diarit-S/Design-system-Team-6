@@ -20,20 +20,33 @@ export default {
 @import '@/styles/colors';
 
 .formLayout {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
 
     &__brand {
         display: flex;
 		justify-content: center;
 		align-items: center;
+        padding: 48px 0;
         background-color: $brand-primary-initial;
     }
+
     &__content {
         display: flex;
         justify-content: center;
 		align-items: center;
+        flex-grow: 1;
+    }
+
+    @media (min-width: 650px) {
+        display: grid;
+        grid-template-columns: 40% 1fr;
+        height: 100vh;
+
+        &__brand {
+            padding: 0;
+        }
     }
 }
 </style>
