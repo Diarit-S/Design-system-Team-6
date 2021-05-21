@@ -37,6 +37,7 @@ export default {
         justify-content: center;
 		align-items: center;
         flex-grow: 1;
+        flex-direction: column;
     }
 
     @media (min-width: 650px) {

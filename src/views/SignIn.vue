@@ -1,6 +1,6 @@
 <template>
     <FormLayout>
-        <Form formTitle="Sign In">
+        <Form formTitle="Sign In" submitLabel="Sign In">
             <FormElementGroup label="Pseudo">
                 <InputField type="text" name="name" placeholder="Placeholder"/>
             </FormElementGroup>
