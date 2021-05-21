@@ -1,6 +1,6 @@
 <template>
   <FormElementGroup label="Pseudo">
-    <InputField/>
+    <InputField type="text" name="name" placeholder="Placeholder"/>
   </FormElementGroup>
 </template>
 
