@@ -1,8 +1,10 @@
 <template>
-  <h1>{{ formTitle }}</h1>
-  <form>
-    <slot/>
-  </form>
+  <div>
+    <h1>{{ formTitle }}</h1>
+    <form>
+      <slot/>
+    </form>
+  </div>
 </template>
 
 <script>
