@@ -35,13 +35,18 @@ export default defineComponent({
   border-color: $brand-primary-lighter;
   border-style: solid;
 
+  font-size: $base-font-size;
+  font-weight: $regular-font-weight;
+  line-height: $base-line-height;
+  color: $brand-primary-initial;
+
   &:focus {
     outline: none;
     border-color: $brand-primary-initial;
   }
 
   &::placeholder {
-    @include input-placeholder-font-style
+    color: $brand-primary-lighter;
   }
 }
 </style>

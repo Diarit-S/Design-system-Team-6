@@ -12,9 +12,3 @@ $regular-font-weight: 400;
 $medium-font-weight: 500;
 $semi-bold-font-weight: 600;
 
-@mixin input-placeholder-font-style {
-  font-size: $base-font-size;
-  font-weight: $regular-font-weight;
-  line-height: $base-line-height;
-  color: $brand-primary-lighter;
-}
