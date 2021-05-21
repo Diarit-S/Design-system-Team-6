@@ -10,12 +10,12 @@ const routes = [
         component: SingIn
     },
     {
-        path: '/SignUp',
+        path: '/signup',
         name: 'SignUp',
         component: SignUp
     },
     {
-        path: '/PasswordRetrieve',
+        path: '/paswword-retrieve',
         name: 'PasswordRetrieve',
         component: PasswordRetrieve
     },
