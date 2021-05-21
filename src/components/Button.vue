@@ -11,6 +11,9 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/styles/vars';
+@import '@/styles/colors';
+
 .BaseButton {
     background-color: $brand-secondary-initial;
     border: none;

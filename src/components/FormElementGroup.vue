@@ -3,7 +3,7 @@
     <label :for="name">
       {{ label }}
     </label>
-    <slot></slot>
+    <slot/>
   </div>
 </template>
 
