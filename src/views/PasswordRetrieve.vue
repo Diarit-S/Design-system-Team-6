@@ -1,14 +1,8 @@
 <template>
   <FormLayout>
-    <Form formTitle="Sign In" submitLabel="Sign In">
-      <FormElementGroup label="Pseudo">
-        <InputField type="text" name="name" placeholder="Placeholder"/>
-      </FormElementGroup>
-      <FormElementGroup label="Pseudo">
-        <InputField type="text" name="name" placeholder="Placeholder"/>
-      </FormElementGroup>
-      <FormElementGroup label="Pseudo">
-        <InputField type="text" name="name" placeholder="Placeholder"/>
+    <Form formTitle="Password retrieve" submitLabel="Recover">
+      <FormElementGroup label="Email">
+        <InputField type="email" name="email" placeholder="Placeholder"/>
       </FormElementGroup>
     </Form>
   </FormLayout>

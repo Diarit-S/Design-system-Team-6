@@ -1,14 +1,11 @@
 <template>
     <FormLayout>
         <Form formTitle="Sign In" submitLabel="Sign In">
-            <FormElementGroup label="Pseudo">
-                <InputField type="text" name="name" placeholder="Placeholder"/>
+            <FormElementGroup label="Email">
+                <InputField type="email" name="email" placeholder="Placeholder"/>
             </FormElementGroup>
-            <FormElementGroup label="Pseudo">
-                <InputField type="text" name="name" placeholder="Placeholder"/>
-            </FormElementGroup>
-            <FormElementGroup label="Pseudo">
-                <InputField type="text" name="name" placeholder="Placeholder"/>
+            <FormElementGroup label="Password">
+                <InputField type="password" name="password" placeholder="Placeholder"/>
             </FormElementGroup>
         </Form>
     </FormLayout>
