@@ -3,17 +3,34 @@
     <label :for="name">
       {{ label }}
     </label>
-    <slot/>
+    <input-field :id="name" :type="type" :placeholder="placeholder" :name="name" />
   </div>
 </template>
 
 <script>
+import InputField from '@/components/Fields/InputField.vue'
+
 export default {
   name: 'FormElementGroup',
+  components: {
+    InputField
+  },
   props: {
     label: {
       type: String,
       required: true
+    },
+    name: {
+      type: String,
+      required: true
+    },
+    placeholder: {
+      type: String,
+      default: "Placeholder"
+    },
+    type: {
+      type: String,
+      default: "text"
     }
   }
 }

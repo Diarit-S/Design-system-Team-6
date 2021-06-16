@@ -1,7 +1,7 @@
 <template>
     <main class="formLayout">
         <div class="formLayout__brand">
-            <img src="../assets/Brand.png" alt="" srcset="">
+            <img src="../assets/Brand.svg" alt="">
         </div>
         <article class="formLayout__content">
             <slot/>
